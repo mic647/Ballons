@@ -1,0 +1,28 @@
+body {
+    background-image: url(../img/sky_139.jpg);
+}
+
+.ballon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 2s;
+    line-height: 50px;
+    text-align: center;
+}
+
+.modal {
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    bottom: calc(50% - 100px);
+    left: calc(50% - 250px);
+    line-height: 200px;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 20px;
+    opacity: 0%;
+    transition: 2s;
+}
